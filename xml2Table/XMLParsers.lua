@@ -88,9 +88,6 @@ local function defaultValueParser(cellInfo)
     end
 end
 
-local function enumParser(rowInfo)
-end
-
 local function fullDataFromInfo(info)
     local t = {}
     for index, value in ipairs(FieldInfo) do
